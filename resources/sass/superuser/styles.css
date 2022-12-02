@@ -1,0 +1,66 @@
+.admin__dashboard .dashboard-header {
+  background: #000 !important;
+}
+.admin__dashboard .dashboard-header .brand-logo {
+  height: 35px;
+  display: block;
+  margin: 5px 0;
+}
+.admin__dashboard nav.top-menu-wrap ul {
+  display: flex;
+  margin-left: 35px;
+}
+.admin__dashboard nav.top-menu-wrap ul li {
+  width: auto;
+  display: block;
+}
+
+.admin__dashboard .form-group-title {
+  color: #454545;
+  font-size: 16px;
+  letter-spacing: 0px;
+  display: block;
+  margin: 10px 0 0 !important;
+}
+
+.admin__dashboard .page_title {
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #929292;
+  text-transform: uppercase;
+  margin: 25px 0 58px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pagination-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.pagination-container a.active {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #ddd;
+}
+.pagination-container a.disabled {
+  opacity: 0.2;
+}
+.pagination-container a:hover:not(.active) {
+  background-color: rgb(238, 238, 238);
+}/*# sourceMappingURL=styles.css.map */

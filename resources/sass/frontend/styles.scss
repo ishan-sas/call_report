@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap');
+
+@import 'variables';
+
+/* Base */
+body {
+  font-family: $primaryFont !important;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none !important;
+}
+p {
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  font-family: $primaryFont !important;
+  margin-bottom: 20px !important;
+}
+
+/* Components */
+@import './components/siteHeader';
+@import './components/siteFooter';
+@import './components/heading';
+@import './components/button';
+
+/* Pages */
+@import 'pages/login';

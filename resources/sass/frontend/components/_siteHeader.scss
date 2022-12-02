@@ -1,0 +1,48 @@
+header.site-header {
+  box-shadow: none;
+  padding: 10px 0 2px;
+  background: transparent;
+  .brand {
+    height: 45px;
+    margin-top: -2px;
+  }
+  .signup-btn {
+    float: right;
+    text-transform: uppercase;
+    padding: 10px 35px;
+  }
+  .login-btn {
+    color: #93aa40 !important;
+    font-size: 13px;
+    float: right;
+    background: transparent;
+    padding: 8px 35px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border: 2px solid #93aa40;
+  }
+  .main-menu-wrap {
+    float: right;
+    margin-top: 8px;
+    ul {
+      padding: 0;
+      li {
+        width: auto;
+        margin: 0 22px;
+        display: inline-block;
+        a {
+          color: $textColor;
+          padding: 0 8px;
+          span {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

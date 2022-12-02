@@ -1,0 +1,66 @@
+.about-intro {
+  padding: 80px 0 52px;
+  .main-content {
+    padding-left: 72px;
+    p {
+      font-weight: 400 !important;
+    }
+  }
+}
+.statics-section {
+  color: #fff;
+  padding: 80px 0 75px;
+  background: #101307;
+  .top-text {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    font-family: $primaryFont;
+  }
+  .content {
+    color: #fff;
+  }
+  .text-wrap {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 32px 0 0;
+      li {
+        font-size: 14px;
+        font-weight: 300;
+        width: 33.33%;
+        display: inline-block;
+        margin: 0 0 20px;
+        i {
+          width: 20px;
+          height: 20px;
+          float: left;
+          margin-right: 10px;
+          border-radius: 4px;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
+.about_feo-section {
+  padding: 80px 0;
+  .text-wrap {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    .title-text {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 0 28px;
+      font-family: $primaryFont;
+    }
+  }
+  .banner-image {
+    padding-left: 5%;
+    img {
+      border-radius: 12px;
+    }
+  }
+}
